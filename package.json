@@ -1,0 +1,17 @@
+{
+  "name": "sirtet",
+  "version": "1.0.0",
+  "description": "Blocks go flying upwards a little like a classic games inverted.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0",
+    "webpack-cli": "^3.2.3"
+  }
+}
