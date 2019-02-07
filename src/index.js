@@ -1,1 +1,1 @@
-import 'SirTet' from "js/component/container/SirTet.jsx"
+import SirTet from "./js/components/container/SirTet.jsx";
