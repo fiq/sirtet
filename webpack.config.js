@@ -4,7 +4,7 @@ module.exports = {
         rules: [
             {
                 test: /\.jsx?$/,
-                exclude: /node_modules/,
+                //exclude: /node_modules/,
                 use: {
                     loader: "babel-loader"
                 }
@@ -16,7 +16,15 @@ module.exports = {
                         loader: "html-loader"
                     }
                 ]
+            },
+            {
+                test: /\.css$/,
+                use: [
+                'style-loader',
+                'css-loader'
+                ]
             }
+            
         ]
     },
     plugins:[
